@@ -24,8 +24,8 @@ const base = `http://localhost:${args.port}`;
 let state: string | undefined = randomBytes(16).toString("hex");
 
 const manifest = {
-  name: "marshal-factory-ski043",
-  url: "https://github.com/ski043/marshal-factory",
+  name: "marshal-factory-vvelikodny",
+  url: "https://github.com/vvelikodny/marshal-factory",
   hook_attributes: { url: `${ingestBase}/webhooks/github`, active: true },
   redirect_url: `${base}/callback`,
   setup_url: `${base}/installed`,
